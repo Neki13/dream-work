@@ -1,0 +1,88 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+   background: #68BEE3;
+}
+
+.countainer {
+	position: absolute;
+	left: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   width: 1000px;
+   height: 600px;
+   margin: 50px;
+}
+
+.originalText {
+	border:5px solid #3C54D7;
+	  border-radius: 20px;
+      width: 1000px;
+      height: 200px;
+      background: #F6F2E9;
+      text-align: center;
+      line-height: 25px;
+}
+
+.copyText {
+	border:5px solid #3C54D7;
+	border-radius: 20px;
+	width: 1000px;
+	height: 200px;
+	background: #F6F2E9;
+	text-align: center;
+		font-family: Arial, sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.passed {
+	padding: 0px;
+	border-radius: 0px;
+	color: green;
+
+}
+
+.test{
+	border:5px solid #3C54D7;
+	border-radius: 20px;
+    width: 1000px;
+	height: 200px;
+	background: #F6F2E9;
+	text-align: center;
+		font-family: Arial, sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+button {
+	position:absolute;
+	bottom: 75px;
+	left: 850px;
+	width: 200px;
+	height: 100px;
+}
+
+.square {
+	border: 5px solid #3C54D7;
+	border-radius: 20px;
+	width:150px;
+	height: 270px;
+	background: #F6F2E9;
+	position: absolute;
+	right: 175px;
+	top: 250px;
+	text-align: center;
+}
+
+.border {
+	position: absolute;
+	top: 50px;
+	left: 325px;
+	width: 1200px;
+    height: 700px;
+    border: 10px solid #566CE1;
+    border-radius: 20px;
+    background: #9ACEEB;
+}
